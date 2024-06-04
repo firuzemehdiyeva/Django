@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    background-color: blue;
+    color: rgb(247, 245, 245); 
+}
+.container{
+   margin: 0 auto;
+   padding: 18px;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: rgb(255, 254, 254);
+}
+.nav-logo img{
+    width: 120px;
+    height: 100px;
+}
+a,i{
+    color: rgb(3, 3, 3)
+}
+.nav-links ul{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+font-size: 20px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.articles ul li{
+    list-style: decimal;
+}
